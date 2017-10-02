@@ -1,0 +1,14 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ pipeDemo <input-string>
+
+DESCRIPTION - 
+Program which is used to create unnamed pipe. Parent process creates new child process and both the processess will communicate with each other.
+
+Example -
+# make
+gcc -o pipeDemo program.c
+# ./pipeDemo 
+Hello World
